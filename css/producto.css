@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navFill{
+    background-color: #FAE706;
+    height: 50px
+}
+
+nav {
+    background-color: #31353D !important;
+    box-shadow: none !important;
+}
+
+nav a,
+nav button {
+    color: #FFFFFF !important;
+}
+
+.mask {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #7F7F7F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #7F7F7F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: left !important;
+    align-items: center;
+}
+
+.mask a {
+    background-color: #FAE706 !important;
+    border-radius: 0 !important;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.products{
+    text-align: right;
+}
+.product-line{
+    height: 375px;
+    border-bottom: 1px solid #000;
+}
+.product-line img {
+    height: 374px;
+}
