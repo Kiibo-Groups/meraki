@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>......</title>
+    <title>Merakis | Index</title>
+
+    <link rel="shortcut icon" href="./img/00.svg" type="image/x-icon">
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -15,18 +19,62 @@
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/producto.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <link rel="stylesheet" href="./css/fuentes.css">
+
 </head>
 
 <body>
 
+
     <header>
-        <section class="navFill">
-
-        </section>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar main-navbar">
             <div class="container">
+
+                <div class="input-group mb-3 w-auto my-auto">
+                    <span class="input-group-text border-0" id="search-addon"><i class="fas fa-search"></i></span>
+                    <input type="search" class="border border-top-0 border-end-0 border-start-0" placeholder="Buscar.."
+                        aria-label="Search" aria-describedby="search-addon" />
+                </div>
+
+                <ul class="navbar-nav ms-auto d-flex flex-row">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <!-- <i class="fas fa-user"></i> -->
+                            <img src="./img/00.svg" class="rounded-circle" height="22" alt="Avatar" loading="lazy" />
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">xxxx</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">xxxx</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">xxxx</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item ms-3">
+                        <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#"
+                            id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <img src="./img/00.svg" class="rounded-circle" height="22" alt="Avatar" loading="lazy" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="logo navbar-brand mt-2 mt-lg-0" href="/">
+                    <span>MERAKIS </span>
+                </a>
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                     data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,20 +82,18 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
-                        <img src="./img/logo.webp" width="110" alt="MDB Logo" loading="lazy" />
-                    </a>
+
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item me-md-1">
                             <a class="nav-link" href="#">NOSOTROS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PRODUCTOS</a>
+                        <li class="nav-item me-md-1">
+                            <a class="nav-link" href="./productos.html">PRODUCTOS</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PERSONALIZAR</a>
+                        <li class="nav-item me-md-1">
+                            <a class="nav-link" href="./personalizar-producto.html">PERSONALIZAR</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item me-md-1">
                             <a class="nav-link" href="#">PREGUNTAS FRECUENTES</a>
                         </li>
                         <li class="nav-item">
@@ -59,106 +105,209 @@
         </nav>
     </header>
 
-
-    <section>
+    <section class="section-product-1 pt-5 pb-5">
         <div class="container">
-            
             <div class="row">
-                <div class="col-md-12 m-4">
-                    <h1 class="products">PRODUCTOS</h1>
-                </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/carteraGrande.png" class="img-fluid" alt="">
+
+                <p class="fw-bold text-uppercase fs-1 text-black text-end">PRODUCTOS</p>
+
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">CARTERA GRANDE</p>
+                            <p class="fs-9 text-uppercase">19 x 10 cm.</p>
+                            <p class="fw-bold">$1,100<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/carteraPequeña.png" class="img-fluid" alt="">
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">CARTERA CHICA</p>
+                            <p class="fs-9 text-uppercase">10.5 x 10.5 cm.</p>
+                            <p class="fw-bold">$800<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/colchaBorrego.png" class="img-fluid" alt="">
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">COLCHA BORREGO</p>
+                            <p class="fs-9 text-uppercase">150 x 110 cm.</p>
+                            <p class="fw-bold">$1,200<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/BolsasMultiusos.png" class="img-fluid" alt="">
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">COJIN DECORATIVO</p>
+                            <p class="fs-9 text-uppercase">VARIAS MEDIDAS</p>
+                            <p class="fw-bold">$700<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/TotePiel.png" class="img-fluid" alt="">
+
+
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">COJIN A SILUETA</p>
+                            <p class="fs-9 text-uppercase">VARIAS MEDIDAS</p>
+                            <p class="fw-bold">$750<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="product-line">
-                        <a href="">
-                            <img src="./img/TarjetaRegalo.png" class="img-fluid" alt="">
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
                         </a>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>COLCHA BORREGO</h3>
-                            <span>150 x 110 cm</span>
-                            <h4>$1,200</h4>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">BOLSAS MULTIUSOS</p>
+                            <p class="fs-9 text-uppercase">25 x 18 cm. y 20 x 14 cm.</p>
+                            <p class="fw-bold">$350<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
+                        </a>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">TOTE EN PIEL</p>
+                            <p class="fs-9 text-uppercase">33 x 30 cm.</p>
+                            <p class="fw-bold">$1500<cite
+                                    class="text-uppercase text-muted text-end ms-5">PROXIMAMENTE</cite></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 pt-2 pb-2">
+                    <div class="card">
+                        <a href="./detalle-producto.html">
+                            <img src="./img/0.svg" srcset="./img/00.svg" class="card-img-top" alt="Imagen MERAKIS" />
+                        </a>
+                        <div class="card-body border-top">
+                            <p class="fw-bold fs-5 text-uppercase">TARJETA DE REGALO</p>
+                            <p class="fs-9 text-uppercase">VARIAS MEDIDAS</p>
+                            <p class="fw-bold">$700<cite class="text-uppercase text-muted text-end ms-5"></cite></p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
+
+    <footer class="text-center text-lg-start text-white">
+
+        <section class="pt-3 pb-3">
+            <div class="container text-center text-md-start">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-uppercase fw-bold">
+                            <img src="./img/00.svg" width="60" class="img-fluid" alt="">Logo
+                        </h6>
+                    </div>
+
+                    <div class="col-md-3">
+                        <p>
+                            <a href="/" class="text-white">INICIO</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">NOSOTROS</a>
+                        </p>
+                        <p>
+                            <a href="/productos.html" class="text-white">PRODUCTOS</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">PERSONALIZAR</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-white">PREGUNTAS FRECUENTES</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="col-md-12">
+                            <p>
+                                <a href="#!" class="text-reset">PROFILE</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">TESTIMONIOS</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">ENVIOS</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">TIPS</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">CONTACTO</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 text-center">
+
+                        <section class="m-2">
+                            <a class="btn btn-floating text-dark" href="#!" role="button"
+                                data-mdb-ripple-color="dark"><i class="fab fa-facebook-f text-white"></i></a>
+                            <a class="btn btn-floating text-dark" href="#!" role="button"
+                                data-mdb-ripple-color="dark"><i class="fab fa-instagram text-white"></i></a>
+                        </section>
+
+                        <p>
+                            SIGUENOS EN NUESTRAS REDES SOCIALES
+                            <br>
+                            @merakis.mx
+                        </p>
+                        <p>REGISTRATE PARA RECIBIR DESCUENTOS Y PROMOCIONES</p>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control border border-0 text-white"
+                                placeholder="Ingresa tu email aqui" aria-label="Ingresa tu email aqui"
+                                aria-describedby="unirse" />
+                            <button class="btn btn-yellow text-black" type="button" id="unirse"
+                                data-mdb-ripple-color="dark">
+                                Unirse
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: #FAE706">
+
+        </div>
+
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>

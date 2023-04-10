@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@600&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #31353D;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: #333333;
+}
+
+:root{
+    --font-cursive: 'Dancing Script', cursive;
+
+    --font-general: 'Poppins', sans-serif;
+
+    --font-title: 'Cormorant Garamond', serif;
+
+    --font-logo: 'Rubik Moonrocks', cursive;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-title);
+}
