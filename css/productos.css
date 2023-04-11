@@ -84,7 +84,7 @@ header .input-group input {
     color: #000000 !important;
 }
 
-.fs-9{
+.fs-9 {
     font-size: 10px;
     font-weight: bold;
     margin-top: -20px;
@@ -94,50 +94,56 @@ header .input-group input {
 /* ------------------------------------------------------------------- */
 
 
-.section-details-product-1 .bg-white-img{
-    border: 1px solid #000000; 
+.section-details-product-1 .bg-white-img {
+    border: 1px solid #000000;
 }
-.section-details-product-1 .fs-9{
+
+.section-details-product-1 .fs-9 {
     font-size: 10px;
     font-weight: bold;
     margin-top: -20px;
     font-size: 20px;
 }
-.section-details-product-1 .form input{
+
+.section-details-product-1 .form input {
     border-radius: 0px;
     border: 1px solid #000000;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-.section-details-product-1 .btn-yellow{
+
+.section-details-product-1 .btn-yellow {
     background-color: #FAE706 !important;
     width: 250px;
     box-shadow: none;
     border-radius: 0px;
 }
-.section-details-product-1 .card-sub-img{
+
+.section-details-product-1 .card-sub-img {
     border: 1px solid #000000;
 }
 
 
 /* ------------------------------------------------------------------- */
 
-main{
+main {
     background-color: #C1C1C1;
 }
 
-.section-personalizar-product .yellow{
+.section-personalizar-product .yellow {
     background-color: #FAE706 !important;
 }
-.section-personalizar-product .grey-light{
+
+.section-personalizar-product .grey-light {
     background-color: #E6E6E6;
 }
 
-.section-personalizar-product .grey{
+.section-personalizar-product .grey {
     background-color: #999999;
     color: #ffffff !important;
 }
-.section-personalizar-product-2{
+
+.section-personalizar-product-2 {
     color: #000000 !important;
 }
 
@@ -166,7 +172,7 @@ main{
     display: none;
 }
 
-.btn-send a{
+.btn-send a {
     background-color: #FAE706 !important;
     width: 250px;
     border-radius: 0px;
@@ -175,7 +181,61 @@ main{
 
 /* ------------------------------------------------------------------- */
 
-footer{
+.section-nosotros .logo span {
+    font-family: var(--font-logo);
+    font-size: 30px;
+    color: #000000 !important;
+}
+
+.section-nosotros p {
+    color: #000000 !important;
+    z-index: 1;
+}
+
+.section-nosotros a{
+    background-color: #000000 !important;
+    border-radius: 0px !important;
+    color: #FFFFFF !important;
+}
+
+.section-nosotros img {
+    float: right;
+}
+
+/* .section-nosotros .image {
+    position: relative;
+    top: -80% !important;
+    left: 30% !important;
+
+} */
+
+@media only screen and (max-width: 600px) {
+    .section-nosotros .image {
+        display: none !important;
+        ;
+
+    }
+}
+
+.section-nosotros .sec-2 img {
+    margin-top: 0px;
+    float: inline-start !important;
+}
+
+.section-nosotros .sec-2 p {
+    color: #000000 !important;
+}
+
+.section-nosotros .sec-2 a {
+    background-color: #000000 !important;
+    color: #FFFFFF;
+    width: 250px;
+    border-radius: 0px;
+}
+
+/* ------------------------------------------------------------------- */
+
+footer {
     background-color: #333333 !important;
 }
 
@@ -184,7 +244,8 @@ footer .input-group input {
     background-color: #333333 !important;
     border-bottom: 1px solid #FAE706 !important;
 }
-footer .btn-yellow{
+
+footer .btn-yellow {
     background-color: #FAE706;
     border-radius: 0px;
     width: 150px;

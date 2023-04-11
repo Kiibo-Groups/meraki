@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-general);
+}
+
+a {
+    box-shadow: none !important;
+}
+
+nav {
+    box-shadow: none !important;
+}
+
+.main-navbar {
+    background-color: #FAE706 !important;
+    height: 60px !important;
+}
+
+.main-navbar .dropdown-menu {
+    background-color: #FAE706 !important;
+}
+
+.main-navbar .dropdown-menu a:hover {
+    background-color: #b9aa06 !important;
+}
+
+.navbar-expand-lg {
+    background-color: #31353D !important;
+    border-bottom: none !important;
+}
+
+.navbar-expand-lg .logo span {
+    font-family: var(--font-logo);
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    color: #FFFFFF !important;
+}
+
+.navbar-expand-lg a {
+    color: #FFFFFF !important;
+}
+
+.navbar-expand-lg a:hover {
+    color: #b7b2b2 !important;
+}
+
+header .input-group input {
+    background-color: #FAE706 !important;
+    border-bottom: 1px solid black !important;
+}
+
+/* ------------------------------------------------------------------- */
+
+.section-preguntas-1 li {
+    padding-top: 12px;
+}
+
+.section-preguntas-2 {
+    background-color: #E6E6E6 !important;
+}
+
+.meraki-section-1 {
+    height: auto;
+    background-color: #000000;
+    margin-bottom: 0px;
+}
+
+.meraki-section-1 span {
+    color: #FAE706;
+    font-family: var(--font-logo);
+    font-size: 30px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.section-preguntas-3, .section-preguntas-5 {
+    padding-top: 50px !important;
+    /* padding-bottom: 30px !important; */
+    background-color: #FAE706 !important;
+    color: #000000 !important;
+}
+
+
+/* ------------------------------------------------------------------- */
+.section-preguntas-4{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    background-color: #E6E6E6 !important;
+}
+
+.section-preguntas-4 .h-670{
+    height: 670px !important;
+    max-height: max-content !important;
+}
+.section-preguntas-4 p{
+    font-size: 0.8rem !important;
+}
+
+.section-preguntas-4 img{
+    width: 300px !important;
+}
+
+/* ------------------------------------------------------------------- */
+.section-preguntas-5 p{
+    z-index: 1;
+}
+.section-preguntas-5 img {
+    float: right;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+footer {
+    background-color: #333333 !important;
+}
+
+footer .input-group input {
+    border-radius: 0px;
+    background-color: #333333 !important;
+    border-bottom: 1px solid #FAE706 !important;
+}
+
+footer .btn-yellow {
+    background-color: #FAE706;
+    border-radius: 0px;
+    width: 150px;
+}
